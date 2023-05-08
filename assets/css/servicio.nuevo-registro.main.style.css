@@ -1,0 +1,31 @@
+.table-service>tbody>tr>td.active_chk:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+.table-service>tbody>tr:hover{
+    cursor: default;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+}
+.btn-aplicar{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
+}
+.btn-aplicar:hover{
+    cursor: pointer;
+}
+
+.registrar{
+    position: sticky;
+    bottom: 0;
+    z-index: 3;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(5px);
+}
